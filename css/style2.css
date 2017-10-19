@@ -1,0 +1,62 @@
+body{
+    background: url(../img/winter.jpg) no-repeat top center;
+}
+.main-header{    
+
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-content {
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0px solid blue;
+    border-radius: 7px;
+    
+}
+.header-content::after, .text-area::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.navigation{
+    padding-left: 15px;
+    padding-right: 200px;    
+    float: left;    
+}
+.title{
+    display: block;
+    width: 385px;
+    margin: 33px 0;
+    float: left;
+    font-style: normal;
+    font-family:sans-serif;
+    vertical-align: middle;
+}
+.text-area{
+    background-color: floralwhite;
+    margin-bottom: 50px;
+}
+
+.left-column, .right-column{
+    padding: 0 5px;
+    float: left;
+    width: 440px;
+    word-wrap: break-word;
+}
+.left-column{
+    width: 439px;
+    border-right: 1px solid black;
+}
+.footer{  
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:lightgray
+}

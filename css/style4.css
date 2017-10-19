@@ -1,0 +1,106 @@
+body{
+    background: url(../img/winter.jpg) repeat-y top center;
+}
+.main-header{    
+
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-content {
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0px solid blue;
+    border-radius: 7px;
+    
+}
+.header-content::after, .text-area::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.navigation{
+    padding-left: 15px;
+    padding-right: 200px;    
+    float: left;    
+}
+.title{
+    display: block;
+    width: 385px;
+    margin: 33px 0;
+    float: left;
+    font-style: normal;
+    font-family:sans-serif;
+    vertical-align: middle;
+}
+.code b{    
+    padding-left: 40px;
+}
+.code{
+    background-color: floralwhite;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+xmp{
+    margin-left: -100px;
+}
+.increase img{ 
+    height: 300px;
+    width: 400px;
+    margin: 30px 250px ;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.increase img:hover {
+    width: 500px;
+    height: 400px;
+    margin: 30px 200px;    
+}
+.reduction img{ 
+    height: 300px;
+    width: 400px;
+    margin: 30px 250px ;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.reduction img:hover {
+    width: 300px;
+    height: 200px;
+    margin: 30px 300px;
+}
+.horizontal img {
+    height: 300px;
+    width: 400px;
+    margin-left: 500px;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;
+}
+
+.horizontal img:hover {
+    margin-left: 0px;
+}
+.footer{  
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:lightgray
+}

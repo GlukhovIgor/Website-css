@@ -1,0 +1,29 @@
+body{
+    background: url(../img/winter.jpg) no-repeat top center;
+}
+.main-header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 40px;    
+    font-family:monospace;
+    font-style: italic;
+    text-align: center;
+}
+
+.links{
+    font-size: 18px;
+    font-style:oblique;
+    margin-left: 50px;
+    
+}
+footer{  
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:lightgray
+}

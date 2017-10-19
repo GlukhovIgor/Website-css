@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Страница 3</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style4.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="navigation">
+                        <p><img width="300px" height="110px"  usemap="#navigation" src="img/navigation_bar.gif" alt="Navigation"></p>
+                            <p><map name="navigation" id="navigation">
+                                    <area alt="Предыдущая страница" href="page-2.html" shape="rect" coords="3,1,90,110" />
+                                    <area alt="Главная страница" href="index.html" shape="rect" coords="90,1,210,110" />
+                                    <area alt="Следующая страница" href="index.html" shape="rect" coords="210,1,300,110" />
+                                </map>
+	                       </p>	                   
+                    </div>
+                    <div class="title">
+                        <h1>Движение</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container">
+            <div class="increase">
+                <img src="img/bg.jpg" alt="image">
+            </div>
+            <div class="code">
+                <b>HTML:</b>            
+                <code>
+                    <xmp>
+                        <div class="increase">
+                            <img src="img/bg.jpg" alt="image">
+                        </div>
+                    </xmp>                
+                </code>
+                <hr>
+                <b>CSS:</b>            
+                <code>
+                    <xmp>
+                        .increase img{ 
+                            height: 300px;
+                            width: 400px;
+                            margin: 30px 250px ;
+                            -webkit-transition: all 1s ease;
+                            -moz-transition: all 1s ease;
+                            -o-transition: all 1s ease;
+                            -ms-transition: all 1s ease;
+                            transition: all 1s ease;
+                        }
+
+                        .increase img:hover {
+                            width: 500px;
+                            height: 400px;
+                            margin: 30px 200px;    
+                        }
+                    </xmp>                
+                </code>
+            </div>
+            
+        </div>
+        
+        <div class="container">
+            <div class="reduction">
+                <img src="img/bg2.png" alt="image">
+            </div>
+            <div class="code">
+                <b>HTML:</b>            
+                <code>
+                    <xmp>
+                        <div class="reduction">
+                            <img src="img/bg2.png" alt="image">
+                        </div>
+                    </xmp>                
+                </code>
+                <hr>
+                <b>CSS:</b>            
+                <code>
+                    <xmp>
+                        .reduction img{ 
+                            height: 300px;
+                            width: 400px;
+                            margin: 30px 250px ;
+                            -webkit-transition: all 1s ease;
+                            -moz-transition: all 1s ease;
+                            -o-transition: all 1s ease;
+                            -ms-transition: all 1s ease;
+                            transition: all 1s ease;
+                        }
+
+                        .reduction img:hover {
+                            width: 300px;
+                            height: 200px;
+                            margin: 30px 300px;
+                        }
+                    </xmp>                
+                </code>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="horizontal">
+                <img src="img/navigation_bar.gif" alt="image">
+            </div>
+            <div class="code">
+                <b>HTML:</b>            
+                <code>
+                    <xmp>
+                        <div class="horizontal">
+                            <img src="img/navigation_bar.gif" alt="image">
+                        </div>
+                    </xmp>                
+                </code>
+                <hr>
+                <b>CSS:</b>            
+                <code>
+                    <xmp>
+                        .horizontal img {
+                            height: 300px;
+                            width: 400px;
+                            margin-left: 500px;
+                            -webkit-transition: margin 1s ease;
+                            -moz-transition: margin 1s ease;
+                            -o-transition: margin 1s ease;
+                            -ms-transition: margin 1s ease;
+                            transition: margin 1s ease;
+                        }
+
+                        .horizontal img:hover {
+                            margin-left: 0px;
+                        }
+                    </xmp>                
+                </code>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer"><hr>
+                    <p><i>СПб НИУ ИТМО,<br>ФКТиУ, кафедра КОТ<br>Выполнил Глухов Игорь Андреевич.</i></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
